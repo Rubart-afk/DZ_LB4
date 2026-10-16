@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="940" viewBox="0 0 1000 940">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L9,3 L0,6" fill="#243447"/></marker>
+    <style>text{font-family:Arial,sans-serif;font-size:20px;fill:#172b4d;text-anchor:middle} .box{fill:#f0f6ff;stroke:#243447;stroke-width:2} .line{fill:none;stroke:#243447;stroke-width:2;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1000" height="940" fill="white"/>
+  <text x="500" y="36" font-size="26">Доставка грузов</text>
+  <rect class="box" x="410" y="60" width="180" height="54" rx="27"/><text x="500" y="94">Начало</text>
+  <path class="line" d="M500 114 V145"/>
+  <path class="box" d="M360 145 H680 L640 210 H320 Z"/><text x="500" y="184">Ввод A, B, C</text>
+  <path class="line" d="M500 210 V245"/>
+  <path class="box" d="M500 245 L690 315 L500 385 L310 315 Z"/><text x="500" y="309">Введены три</text><text x="500" y="337">целых числа?</text>
+  <path class="line" d="M690 315 H810 V402"/><text x="738" y="300">Нет</text>
+  <path class="box" d="M715 402 H945 L915 472 H685 Z"/><text x="815" y="443">Ошибка ввода</text>
+  <path class="line" d="M815 472 V795"/>
+  <rect class="box" x="715" y="795" width="200" height="58" rx="29"/><text x="815" y="831">Конец (код 1)</text>
+  <path class="line" d="M500 385 V425"/><text x="526" y="410">Да</text>
+  <path class="box" d="M500 425 L735 535 L500 645 L265 535 Z"/>
+  <text x="500" y="510">A % 5 == 0 &amp;&amp;</text><text x="500" y="538">B % 5 == 0 &amp;&amp;</text><text x="500" y="566">C % 5 == 0?</text>
+  <path class="line" d="M265 535 H175 V680"/><text x="223" y="518">Да</text>
+  <path class="line" d="M500 645 V680"/><text x="532" y="670">Нет</text>
+  <path class="box" d="M65 680 H315 L285 750 H35 Z"/><text x="175" y="710">Погрузка</text><text x="175" y="736">разрешена</text>
+  <path class="box" d="M390 680 H640 L610 750 H360 Z"/><text x="500" y="710">Погрузка</text><text x="500" y="736">запрещена</text>
+  <path class="line" d="M175 750 V790 H360 V835"/><path class="line" d="M500 750 V790 H360 V835"/>
+  <rect class="box" x="260" y="835" width="200" height="58" rx="29"/><text x="360" y="871">Конец (код 0)</text>
+</svg>
