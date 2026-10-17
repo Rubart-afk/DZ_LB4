@@ -1,8 +1,7 @@
 #include <stdio.h>
-
+int A, B, C;
 int main(void)
 {
-    int A, B, C;
 
     printf("Введите веса грузов A, B, C (целые кг): ");
     if (scanf("%d %d %d", &A, &B, &C) != 3) {
